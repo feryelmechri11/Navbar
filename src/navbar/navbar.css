@@ -1,0 +1,38 @@
+.navbar{
+     border-bottom: 1px solid #e7e7e7;
+}
+ul {
+    margin-right: 250px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*border: 1px solid #e7e7e7;*/
+    background-color: white;
+    height: 100px;
+  }
+  
+  li {
+      margin-top: 20px;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color:#ce0033;
+  }
+  
+.logo_simplon{
+    
+    position: absolute;
+    left: 10px;
+      top: 20px;
+  }
